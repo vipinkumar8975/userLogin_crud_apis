@@ -1,0 +1,20 @@
+{
+  "name": "nodeexpressapi",
+  "version": "1.0.0",
+  "description": "\"This is an app for creating restful api by using node express and mongodb.\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "author": "vipinkumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.11",
+    "nodemon": "^2.0.13"
+  }
+}
